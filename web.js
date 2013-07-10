@@ -3,7 +3,7 @@ var express = require('express');
 var fs  =  require('fs');
 var BUFSIZE = ( 4 * 1024 );
 var buffer = new Buffer(BUFSIZE);
-var filename = '/home/ubuntu/bitstarter/index.html';
+var filename = 'index.html';
 
 
 var app = express.createServer(express.logger());
